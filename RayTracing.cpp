@@ -52,6 +52,7 @@ int main() {
 	auto viewport_upper_left = camera_center - vec3(0, 0, focal_length) - (viewport_u / 2) - (viewport_v / 2);
 	auto pixel00_loc = viewport_upper_left + (0.5 * (pixel_delta_u + pixel_delta_v));
 
+
 	std::cout << "P3\n" << image_width << ' ' << image_height << "\n255\n";
 	for (int j = 0; j < image_height; j++) {
 
