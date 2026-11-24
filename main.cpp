@@ -1,8 +1,6 @@
 ﻿// RayTracing.cpp : Defines the entry point for the application.
 //
 
-#include "RayTracing.h"
-
 #include "rtweekend.h"
 
 #include "camera.h"
