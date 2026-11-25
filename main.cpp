@@ -36,7 +36,10 @@ int main() {
 	cam.vfov = 90;
 	cam.lookfrom = point3(-2, 2, 1);
 	cam.lookat = point3(0, 0, -1);
-	cam.vup = unit_vector(vec3(0, 1, 1));
+	cam.vup = vec3(0,1,0);
+
+	cam.defocus_angle = 10.0;
+	cam.focus_dist = 3.4;
 
 	cam.render(world);
 }
